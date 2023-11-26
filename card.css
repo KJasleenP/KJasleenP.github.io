@@ -3,7 +3,7 @@ html{
 }
 
 .bg{
-  height: 100dvh;
+  height: 110dvh;
   background-color: #018abe;
   /*background-image: linear-gradient(0deg, #18A5A7, #BFFFC7);*/
   background-image: linear-gradient(0deg, #d6e8ee, #97cadb, #018abe, #02457a, #001b48);
