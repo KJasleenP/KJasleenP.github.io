@@ -1,0 +1,149 @@
+html{
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+.bg{
+  height: 110dvh;
+  background-color: #018abe;
+  background-image: linear-gradient(0deg, #d6e8ee, #97cadb, #018abe, #02457a, #001b48);
+  display: grid;
+  grid-template-rows: 10% 80% 10%;
+  grid-template-areas: '.'
+                        'card'
+                        '.';
+}
+
+.card{
+  grid-area: card;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: #faffff;
+  border-radius:20px;
+  box-shadow: 0px 20px 10px -18px black;
+
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-areas: 'contact' 
+                       'info';
+}
+
+.contact{
+  grid-area: contact;
+  background-color: #AFDBF5;
+  border: 1px solid #AFDBF5;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: 'c1 c2';
+}
+
+.info{
+  grid-area: info;
+  background-color: #faffff;
+  border: 1px solid #faffff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 2.5dvh;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  grid-template-areas: 'name name name'
+                       'lang tech frame';
+}
+/*
+br{
+  display: block;
+  content:"";
+  margin-top:10px;
+}
+*/
+
+.c1{
+ grid-area: c1;
+
+}
+
+.c2{
+  grid-area: c2;
+}
+
+.c1,.c2{
+  margin-left: 8%;
+  margin-right: 8%;
+  font-size: 2dvh;
+  color: #02457a;  
+}
+
+/*.rule{ 
+  grid-area: rule;
+  height:15%;
+  width: 15px;
+  background-color: #faffff;
+  border: 1px solid #faffff;
+}*/
+
+span{
+  font-size: 2.8dvh;
+}
+
+a{
+  text-decoration: none;
+}
+
+.name{
+  grid-area: name;
+  font-size: 6dvh;
+  color: #001b48;
+  margin-block-end: 0em;
+}
+
+.fn{
+  color: #046295;
+  font-size: 6dvh;
+}
+
+ul{
+  padding-inline-start: 10%;
+}
+
+li{
+  font-size: 2.4dvh;
+  font-weight: normal;
+  text-align: left;
+}
+
+.lang{
+  grid-area: lang;
+  margin: 1%;
+}
+
+.tech{
+  grid-area: tech;
+  margin: 1%;
+}
+
+.frame{
+  grid-area: frame;
+  margin: 1%;
+}
+
+/*
+@media only screen and (max-width: 768px) {
+  /* For mobile phones:
+  [class*="col-"] {
+    width: 100%;
+  }
+}*/
+
+
+
+
+/*.content{
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  color: #001b48; ;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}*/
