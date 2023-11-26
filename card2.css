@@ -7,7 +7,7 @@ html{
   background-color: #018abe;
   background-image: linear-gradient(0deg, #d6e8ee, #97cadb, #018abe, #02457a, #001b48);
   display: grid;
-  grid-template-rows: 10% 80% 10%;
+  grid-template-rows: 5% 90% 5%;
   grid-template-areas: '.'
                         'card'
                         '.';
@@ -15,8 +15,8 @@ html{
 
 .card{
   grid-area: card;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   background: #faffff;
   border-radius:20px;
   box-shadow: 0px 20px 10px -18px black;
